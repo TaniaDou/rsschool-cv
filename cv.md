@@ -26,3 +26,13 @@ Graduated from St. Petersburg University of Economics and Finance, I started my 
 * JS Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS School Course [JS/Front-end. Stage 0]() (partly)
 * RS School Course [JS/Front-end. Stage 1]() (in progress)
+  
+### Languages
+* English - Intermediate
+* Russian - Native
+
+### Code Example
+KATA from CODEWARS
+``function multiply($a, $b){
+  return $a * $b;
+}``
