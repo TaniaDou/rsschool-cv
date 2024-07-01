@@ -19,9 +19,16 @@ body {
 
 .wrapper {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 1rem auto;
 
   box-shadow: 0 0 10px 1px var(--main-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*HEADER*/
@@ -35,14 +42,13 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  list-style: none;
+
 }
 .navigation__link {
   display: block;
   padding: .750rem;
   font-weight: 600;
-  text-decoration: none;
-  color: inherit;
+
   transition-duration: .5s;
 }
 .navigation__link:hover,
