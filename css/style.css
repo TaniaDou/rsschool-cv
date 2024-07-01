@@ -83,6 +83,10 @@ body {
 }
 
 /*MAIN*/
+.main-content .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 .section__title {
   margin: 0;
   margin-bottom: 1.5rem;
@@ -119,4 +123,8 @@ body {
 .languages__list {
   padding-left: 3.5em;
   list-style-type: disc
+}
+/*RIGHT SIDE*/
+.right-content {
+  width: 55%;
 }
