@@ -55,6 +55,7 @@ body {
   color: var(--main-color)
 }
 .header__desc {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -73,9 +74,7 @@ body {
 }
 .header__img {
   position: absolute;
-  left: 25em;
-  top: 7em;
-  width: 250px;
+  left: 5rem;
   height: auto;
   border: 1px solid var(--main-color);
   box-shadow: 0 0 10px 1px var(--main-color);
