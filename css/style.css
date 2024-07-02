@@ -127,3 +127,18 @@ body {
 .right-content {
   width: 55%;
 }
+.education__link:hover,
+.education__link:active {
+  color: var(--main-color)
+}
+
+/*FOOTER*/
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+.rs__img {
+  border: 2px solid white;
+  border-radius: 50%;
+}
