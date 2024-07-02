@@ -135,8 +135,9 @@ body {
 /*FOOTER*/
 .footer .wrapper {
   display: flex;
-  justify-content: space-between;
-  padding: 1rem 5rem;
+  justify-content:space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .rs__img {
   border: 2px solid white;
