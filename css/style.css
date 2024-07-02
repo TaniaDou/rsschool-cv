@@ -144,7 +144,9 @@ body {
   padding-bottom: 1rem;
 }
 .education__link:hover,
-.education__link:active {
+.education__link:active,
+.portfolio__link:hover,
+.portfolio__link:active {
   color: var(--main-color)
 }
 .portfolio__list {
