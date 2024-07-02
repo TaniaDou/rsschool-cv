@@ -133,12 +133,27 @@ body {
   gap: 4rem;
   justify-content: start;
   padding-left: 1rem;
+  margin-top: 0
 }
-.about-text {
+.education__title {
+  margin-bottom: 0;
+}
+.about-text,
+.code-text {
   padding-right: 2rem;
+  padding-bottom: 1rem;
 }
 .education__link:hover,
 .education__link:active {
+  color: var(--main-color)
+}
+.portfolio__list {
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.section__title {
   color: var(--main-color)
 }
 
