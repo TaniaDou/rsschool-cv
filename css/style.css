@@ -169,4 +169,10 @@ body {
 .rs__img {
   border: 2px solid white;
   border-radius: 50%;
+  transition: all .5s ease;
+}
+.rs__link:hover {
+  .rs__img {
+    border: 2px solid var(--main-color);
+  }
 }
