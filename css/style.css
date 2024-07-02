@@ -41,7 +41,7 @@ body {
   margin: 0;
   padding: 2em 2.5em;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 
 }
@@ -59,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-right: 13.5em;
+  padding-right: 14.7em;
 }
 .header__title {
   margin-top: .125em;
@@ -125,7 +125,17 @@ body {
 }
 /*RIGHT SIDE*/
 .right-content {
+  padding-top: 4rem;
   width: 55%;
+}
+.education__list {
+  display: flex;
+  gap: 4rem;
+  justify-content: start;
+  padding-left: 1rem;
+}
+.about-text {
+  padding-right: 2rem;
 }
 .education__link:hover,
 .education__link:active {
